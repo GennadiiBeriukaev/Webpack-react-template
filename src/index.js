@@ -5,4 +5,4 @@ function component(text) {
     return element;
   }
   
-  document.body.prepend(component('Gena Webpack'));
+  document.body.prepend(component('Gena Webpack HUZENDA KUT KUT KUT KUGUT KUGUT'));
