@@ -1,10 +1,10 @@
 import './main.scss';
+import './fonts/fonts.scss'
+import './template.html';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './components/App';
 
 
-function component(text) {
-    const element = document.createElement('h1');
-    element.textContent = text;
-    return element;
-  }
-  
-  document.body.prepend(component('Gena Webpack HUZENDA KUT KUT KUT KUGUT KUGUT'));
+
+  ReactDOM.render(<App />, document.getElementById('root'));
